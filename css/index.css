@@ -2,6 +2,8 @@ body {
     text-rendering:optimizeLegibility;
     padding:0;
     margin:0;
+    font-family: "Open Sans", sans-serif;
+    font-weight:300;
 }
 
 .title {
@@ -39,4 +41,22 @@ nav {
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
     background-size: cover;         /* Generic*/
+}
+
+.bigdivide {
+    width:100%;
+    background-color:#E34234;
+    height:25px;
+    margin-bottom:25px;
+}
+
+.bodydiv {
+    width:900px;
+    margin:0px auto;
+}
+
+.herotext {
+    text-align:center;
+    font-size:30px;
+    font-weight:400;
 }
