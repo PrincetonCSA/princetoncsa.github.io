@@ -12,7 +12,7 @@ body {
     color:white;
     font-family:"Lora", serif;
     font-size:40px;
-    width:185px;
+    width:184px;
     float:left;
     height:120px;
 }
@@ -23,14 +23,43 @@ body {
     height:120px;
 }
 
+.icons {
+    width:204px;
+    height:204px;
+    background-color:#E34234;
+    clear:left;
+    float:left;
+}
+
+.socmedia {
+    background-color:white;
+    border-radius:36px;
+    width:72px;
+    height:72px;
+    display:inline-block;
+    float:left;
+    margin:15px;
+    color:#E34234;
+    text-align:center;
+}
+
+.centicon {
+    line-height:72px;
+}
+
+
 nav {
     background-color:#E34234;
-    padding:10px;
     float:right;
-    height:50px;
     color:white;
-    width:50px;
+    width:102px;
     text-align:center;
+}
+
+.navdiv {
+    padding:15px;
+    height:72px;
+    width:72px;
 }
 
 .hero {
