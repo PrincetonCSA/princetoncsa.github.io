@@ -41,6 +41,7 @@ div.circle-avatar{
   /* div height to be the same as width*/
   /*padding-top:100%;*/
 
+  
   /* make it a cirkle */
   border-radius:50%;
 
@@ -53,11 +54,8 @@ div.circle-avatar{
   background-size: cover;
 
   /* it is optional, for making this div centered in parent*/
-  margin: 0 auto;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  margin-bottom: 20px;
+  top: 10;
 }
 
 .picrow {
