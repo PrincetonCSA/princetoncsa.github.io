@@ -9,7 +9,7 @@
         <link rel="stylesheet" type="text/css" href="css/index.css">
     </head>
     <body>
-        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <nav id="navsize" class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -31,9 +31,13 @@
                     <li><a href="http://www.youtube.com/user/PrincetonCSA"><i class="fa fa-lg fa-youtube-play" style="line-height:20px;vertical-align:middle;"></i></a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a onclick="contentLoad('pub/home.html')"><i class="fa fa-lg fa-home" style="line-height:20px;vertical-align:middle;cursor:pointer"></i></a></li>
+                    <li><a href="#" id="home-button"> <strong> Home </strong> </a> </li>
+                    <li><a href="#" id="about-button"> <strong> About </strong> </a> </li>
+                    <li><a href="#" id="event-button"> <strong> Events </strong> </a> </li>
+                    <li><a href="#" id="about-button"> <strong> Contact </strong> </a> </li>
+<!--                     <li><a onclick="contentLoad('pub/home.html')"><i class="fa fa-lg fa-home" style="line-height:20px;vertical-align:middle;cursor:pointer"></i></a></li>
                     <li><a onclick="contentLoad('pub/a.html')"><i class="fa fa-lg fa-calendar" style="line-height:20px;vertical-align:middle;cursor:pointer"></i></a></li>
-                    <li><a onclick="contentLoad('pub/a.html')"><i class="fa fa-lg fa-photo" style="line-height:20px;vertical-align:middle;cursor:pointer"></i></a></li>
+                    <li><a onclick="contentLoad('pub/a.html')"><i class="fa fa-lg fa-photo" style="line-height:20px;vertical-align:middle;cursor:pointer"></i></a></li> -->
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
@@ -79,5 +83,6 @@
             ga('send', 'pageview');
 
         </script>
+        <script src="js/index.js"></script>
     </body>
 </html>
