@@ -46,9 +46,8 @@ div.circle-avatar{
   border-radius:50%;
 
   /* Centering on image`s center*/
-  background-position-y: center;
-  background-position-x: center;
   background-repeat: no-repeat;
+  background-position: center;
 
   /* it makes the clue thing, takes smaller dimention to fill div */
   background-size: cover;
